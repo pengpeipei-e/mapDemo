@@ -4,8 +4,13 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 
+Vue.config.productionTip = false
+// import CesiumNavigation from 'cesium-navigation-es6'
+// Vue.prototype.CesiumNavigation = CesiumNavigation
 new Vue({
   router,
   store,
