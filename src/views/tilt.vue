@@ -13,7 +13,7 @@
 		},
 		mounted() {
 			this.viewer = new Cesium.Viewer('cesiumContainer');
-
+			// 这个数据有问题，当前也页面无法达到效果
 			let tileset = this.viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
 				url: './build/Tile_118/Tile_118_L19_00010t3.json',
 				// modelMatrix: Cesium.Matrix4.fromArray([1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]),

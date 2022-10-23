@@ -1,6 +1,7 @@
 <template>
 	<div class="home">
 		<div class="cesium">
+			cesium：
 			<router-link to="/about">
 				<button>展示三维</button>
 			</router-link>
@@ -17,7 +18,7 @@
 				<button>3D Models</button>
 			</router-link>
 			<router-link to="/3DTilesPhotogrammetryClassification">
-				<button>3D Tiles Photogrammetry Classification.vue</button>
+				<button>3D Tiles Photogrammetry Classification</button>
 			</router-link>
 			<router-link to="/track">
 				<button>轨迹</button>
@@ -42,6 +43,7 @@
 			</router-link>
 		</div>
 		<div class="openlayer">
+			openlayer：
 			<router-link to="/feature">
 				<button>特征</button>
 			</router-link>
