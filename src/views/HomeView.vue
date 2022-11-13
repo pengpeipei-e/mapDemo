@@ -41,6 +41,27 @@
 			<router-link to="/flowWater">
 				<button>流动水面</button>
 			</router-link>
+			<router-link to="/primitive">
+				<button>primitive</button>
+			</router-link>
+			<router-link to="/kml">
+				<button>kml转geojson</button>
+			</router-link>
+			<router-link to="/screenShot">
+				<button>截图</button>
+			</router-link>
+			<router-link to="/flatCut">
+				<button>剪切平面距离模型高</button>
+			</router-link>
+			<router-link to="/scope">
+				<button>获取当前地图的范围</button>
+			</router-link>
+			<router-link to="/space">
+				<button>空间内</button>
+			</router-link>
+			<router-link to="/draw">
+				<button>画</button>
+			</router-link>
 		</div>
 		<div class="openlayer">
 			openlayer：

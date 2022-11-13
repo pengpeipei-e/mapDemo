@@ -81,6 +81,41 @@ const routes = [
     name: "Feature",
     component: () => import("../pageOl/feature.vue"),
   },
+  {
+    path: "/kml",
+    name: "kml",
+    component: () => import("../views/kmlToGeoJson.vue"),
+  },
+  {
+    path: "/primitive",
+    name: "primitive",
+    component: () => import("../views/primitive.vue"),
+  },
+  {
+    path: "/screenShot",
+    name: "Screenshot",
+    component: () => import("../views/screenShot.vue"),
+  },
+  {
+    path: "/flatCut",
+    name: "flatCut",
+    component: () => import("../views/flatCut.vue"),
+  },
+  {
+    path: "/scope",
+    name: "scope",
+    component: () => import("../views/scope.vue"),
+  },
+  {
+    path: "/space",
+    name: "space",
+    component: () => import("../views/space.vue"),
+  },
+  {
+    path: "/draw",
+    name: "draw",
+    component: () => import("../views/draw.vue"),
+  },
 ];
 
 const router = new VueRouter({
